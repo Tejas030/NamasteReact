@@ -5,7 +5,7 @@
     display : flex;
     justify-content: space-between;
     border: 1px solid black;
-    margin : 10px 
+    margin : 10px ;
 }
 
 
@@ -57,4 +57,18 @@
     display : flex;
     flex-wrap: wrap;
 
+}
+.filter-btn{
+    padding : 10px;
+    margin : 10px;
+}
+.filter-btn>button{
+    padding : 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+.filter-btn>button:hover{
+    background-color: #d0d0d0;
+    border : 1px solid #ccc;
 }
